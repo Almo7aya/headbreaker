@@ -113,7 +113,7 @@ class KonvaPainter extends Painter {
         let newX = pos.x;
         let newY = pos.y;
 
-        // To bound the pieces inside the border of the canvas
+        // To bound the pieces inside the border of the main canvas
         if (pos.x + piece.size.radio.x >= canvas.width) {
           newX = canvas.width - piece.size.radio.x;
         }
