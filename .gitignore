@@ -1,5 +1,2 @@
 node_modules/**
 .vscode/**
-dist/**
-site/**
-docs/api/**
